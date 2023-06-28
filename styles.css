@@ -4,8 +4,13 @@
     font-family: 'Roboto', sans-serif;
 }
 
+body{
+    height: 100vh;
+}
+
 img{
     width: 40px;
+    cursor: pointer;
 }
 
 .medium{
@@ -154,6 +159,7 @@ button{
     border-radius: 20px;
     color: white;
     background: rgb(96, 96, 253);
+    cursor: pointer;
 }
 
 
@@ -176,6 +182,7 @@ footer{
     height: 130px;
     background: white;
     border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 2.95px 2.6px;
 }
 
 .card > p{
@@ -195,4 +202,63 @@ footer{
     margin-left: 20px;
 }
 
+.bottom-left{
+    height: 76vh;
+}
 
+.bottom-right{
+    margin: 0px 15px;
+}
+
+.announcements > section{
+    margin-top: 13px;
+    padding: 5px 10px ;
+    background: white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 2.95px 2.6px;
+}
+
+.announcements > section > div{
+    margin: 10px;
+}
+
+.announcements > section > hr{
+    width: 270px;
+    margin-left: 10px;
+}
+
+.announcements > section > div > p{
+    font-size: smaller;
+    font-weight: 400;
+    margin: 5px;
+}
+
+.trending > section{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    margin-top: 15px;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 2.95px 2.6px;
+}
+
+.trending > section > div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px ;
+}
+
+.trending > section > div > img{
+    margin-right: 15px;
+}
+
+.username{
+    font-weight: 500;
+    font-size: small;
+}
+
+.desc{
+    font-size: small;
+    font-weight: 400;
+}
